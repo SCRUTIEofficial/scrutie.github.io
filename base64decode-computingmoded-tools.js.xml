@@ -1,0 +1,1 @@
+$(function(){mkTool("base64-decode",function(e){var o=new Base64Thing,n=o.b64ToByteArray(e),r=String.fromCharCode.apply(null,n),t=decodeURIComponent(escape(r));return t},{exceptionFn:function(e){$("#action-error").show(),$("#action-error").text(e.message)}})});
